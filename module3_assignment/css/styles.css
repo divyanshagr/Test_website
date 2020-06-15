@@ -1,0 +1,80 @@
+body {
+  font-size: 16px;
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #32e0c4;
+  border-radius: 0;
+  border-bottom: 2px solid black;
+}
+
+
+.navbar-brand {
+  padding-top: 25px;
+  margin-bottom: 25px;
+}
+
+.navbar-brand h1 {
+  font-family: 'Balsamiq Sans', cursive;
+  color: white;
+  font-size: 1.8em;  
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 40px;
+}
+
+#nav-list {
+  margin-top: 10px;
+  color: white;
+  text-align: center;
+  font-size: 1.8em;
+  background-color: #393e46;
+  border-bottom: 1px solid black;
+  margin-bottom: 0px;
+}
+
+#nav-list .item-list > p{
+  padding-top: 10px;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1.5px solid white;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -50px;
+  margin-bottom: 10px;
+
+}
+
+#collapsable-nav{
+  border: none;
+}
+
+#collapsable-nav .item-list{
+/*  background-color: black;*/
+  padding: 5px;
+  border-bottom: 1px solid white;
+}
+#collapsable-nav .item-list:nth-child(3){
+  border: none;
+  padding-bottom: 2px;
+}
+
+.row .details{
+  background-color: #eff3c6;
+  margin: 20px auto 20px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.row .section-title{
+  margin: 30px auto 30px;
+}
+
+#main-content{
+  margin: 50px;
+}
